@@ -10,8 +10,8 @@ import random
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_ADDRESS = "aasthamalik1810@gmail.com"
-EMAIL_PASSWORD = "hpesvflhowhzmzqp"
+EMAIL_ADDRESS = "" #sender's email
+EMAIL_PASSWORD = "" #your password
 
 def send_email(to_email, subject, body):
     msg = MIMEMultipart()
